@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1d294f">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/design"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="521dp"
+        android:gravity="center"
+        android:text="Welcome Back"
+        android:textColor="@android:color/white"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="469dp"
+        android:gravity="center"
+        android:text="Login to your account"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/txtuser"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtpass"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="14dp"
+        android:background="#ffff"
+        android:hint="Username"
+        android:padding="12.5dp" />
+
+    <EditText
+        android:id="@+id/txtpass"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnlogin2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="14dp"
+        android:background="#ffff"
+        android:hint="Password"
+        android:padding="12.5dp" />
+
+    <Button
+        android:id="@+id/btnlogin2"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="17dp"
+        android:background="#973C589E"
+        android:text="LOG IN"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="226dp"
+        android:gravity="center"
+        android:text="Don't have an account? Sign up"
+        android:textColor="#c4d2f5"
+        android:textSize="20dp" />
+
+</RelativeLayout>

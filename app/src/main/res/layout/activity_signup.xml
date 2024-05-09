@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1d294f">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/design" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="542dp"
+        android:gravity="center"
+        android:text="Get Started"
+        android:textColor="@android:color/white"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtusername"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtpassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="14dp"
+        android:background="#ffff"
+        android:hint="Username"
+        android:padding="12.5dp" />
+
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtretype"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="14dp"
+        android:background="#ffff"
+        android:hint="Password"
+        android:padding="12.5dp" />
+
+    <EditText
+        android:id="@+id/txtretype"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnregister"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="15dp"
+        android:background="#ffff"
+        android:hint="Re-type Password"
+        android:padding="12.5dp" />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="21dp"
+        android:background="#973C589E"
+        android:text="REGISTER"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="128dp"
+        android:gravity="center"
+        android:text="Already have an account? Sign in"
+        android:textColor="#c4d2f5"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="490dp"
+        android:gravity="center"
+        android:text="Create to your account"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/txtfullname"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtusername"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="14dp"
+        android:background="#ffff"
+        android:hint="Full Name"
+        android:padding="12.5dp" />
+
+</RelativeLayout>
